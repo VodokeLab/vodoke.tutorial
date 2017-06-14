@@ -1,0 +1,147 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* branches\
+* branches\project-pan-pacific\
+* branches\project-pan-pacific\.classpath
+* branches\project-pan-pacific\.project
+* branches\project-pan-pacific\AndroidManifest.xml
+* branches\project-pan-pacific\bin\
+* branches\project-pan-pacific\bin\AndroidManifest.xml
+* branches\project-pan-pacific\bin\classes.dex
+* branches\project-pan-pacific\bin\jarlist.cache
+* branches\project-pan-pacific\bin\res\
+* branches\project-pan-pacific\bin\res\drawable-hdpi\
+* branches\project-pan-pacific\bin\res\drawable-hdpi\ic_action_search.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\ic_launcher.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_1.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_2.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_3.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_4.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_5.png
+* branches\project-pan-pacific\bin\res\drawable-hdpi\t_frame_6.png
+* branches\project-pan-pacific\bin\res\drawable-ldpi\
+* branches\project-pan-pacific\bin\res\drawable-ldpi\ic_launcher.png
+* branches\project-pan-pacific\bin\res\drawable-mdpi\
+* branches\project-pan-pacific\bin\res\drawable-mdpi\ic_action_search.png
+* branches\project-pan-pacific\bin\res\drawable-mdpi\ic_launcher.png
+* branches\project-pan-pacific\bin\res\drawable-xhdpi\
+* branches\project-pan-pacific\bin\res\drawable-xhdpi\ic_action_search.png
+* branches\project-pan-pacific\bin\res\drawable-xhdpi\ic_launcher.png
+* branches\project-pan-pacific\bin\resources.ap_
+* branches\project-pan-pacific\bin\vodoke-tutorial.apk
+* branches\project-pan-pacific\gen\
+* branches\project-pan-pacific\gen\com\
+* branches\project-pan-pacific\gen\com\vodoke\
+* branches\project-pan-pacific\gen\com\vodoke\tutorial\
+* branches\project-pan-pacific\gen\com\vodoke\tutorial\BuildConfig.java
+* branches\project-pan-pacific\gen\com\vodoke\tutorial\R.java
+* branches\project-pan-pacific\ic_launcher-web.png
+* branches\project-pan-pacific\libs\
+* branches\project-pan-pacific\libs\android-support-v4.jar
+* branches\project-pan-pacific\proguard-project.txt
+* branches\project-pan-pacific\project.properties
+* branches\project-pan-pacific\res\
+* branches\project-pan-pacific\res\drawable-hdpi\
+* branches\project-pan-pacific\res\drawable-hdpi\ic_action_search.png
+* branches\project-pan-pacific\res\drawable-hdpi\ic_launcher.png
+* branches\project-pan-pacific\res\drawable-hdpi\t1.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t2.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t3.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t4.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t5.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t6.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t7.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t8.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t9.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_1.png
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_2.png
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_3.png
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_4.png
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_5.png
+* branches\project-pan-pacific\res\drawable-hdpi\t_frame_6.png
+* branches\project-pan-pacific\res\drawable-hdpi\tt1.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt2.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt3.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt4.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt5.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt6.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt7.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt8.jpg
+* branches\project-pan-pacific\res\drawable-hdpi\tt9.jpg
+* branches\project-pan-pacific\res\drawable-ldpi\
+* branches\project-pan-pacific\res\drawable-ldpi\ic_launcher.png
+* branches\project-pan-pacific\res\drawable-mdpi\
+* branches\project-pan-pacific\res\drawable-mdpi\ic_action_search.png
+* branches\project-pan-pacific\res\drawable-mdpi\ic_launcher.png
+* branches\project-pan-pacific\res\drawable-xhdpi\
+* branches\project-pan-pacific\res\drawable-xhdpi\ic_action_search.png
+* branches\project-pan-pacific\res\drawable-xhdpi\ic_launcher.png
+* branches\project-pan-pacific\res\layout\
+* branches\project-pan-pacific\res\layout\activity_main.xml
+* branches\project-pan-pacific\res\menu\
+* branches\project-pan-pacific\res\menu\activity_main.xml
+* branches\project-pan-pacific\res\raw\
+* branches\project-pan-pacific\res\raw\music.mp3
+* branches\project-pan-pacific\res\values-large\
+* branches\project-pan-pacific\res\values-large\dimens.xml
+* branches\project-pan-pacific\res\values-v11\
+* branches\project-pan-pacific\res\values-v11\styles.xml
+* branches\project-pan-pacific\res\values-v14\
+* branches\project-pan-pacific\res\values-v14\styles.xml
+* branches\project-pan-pacific\res\values\
+* branches\project-pan-pacific\res\values\dimens.xml
+* branches\project-pan-pacific\res\values\strings.xml
+* branches\project-pan-pacific\res\values\styles.xml
+* branches\project-pan-pacific\src\
+* branches\project-pan-pacific\src\com\
+* branches\project-pan-pacific\src\com\vodoke\
+* branches\project-pan-pacific\src\com\vodoke\service\
+* branches\project-pan-pacific\src\com\vodoke\service\MusicService.java
+* branches\project-pan-pacific\src\com\vodoke\tutorial\
+* branches\project-pan-pacific\src\com\vodoke\tutorial\MainActivity.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
