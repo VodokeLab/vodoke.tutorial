@@ -50,8 +50,8 @@ public class MainActivity extends Activity {
 		t5 = (ImageView)findViewById(R.id.t5);
 		frame5 = (ImageView) findViewById(R.id.frame5);
 		t6 = (ImageView) findViewById(R.id.t6);
-		t7 = (ImageView) findViewById(R.id.t7);
-		t8 = (ImageView) findViewById(R.id.t8);
+//		t7 = (ImageView) findViewById(R.id.t7);
+//		t8 = (ImageView) findViewById(R.id.t8);
 //		t9 = (ImageView) findViewById(R.id.t9);
 	}
 
@@ -70,33 +70,8 @@ public class MainActivity extends Activity {
 
 
 	public boolean onTouchEvent(MotionEvent event) {
-
 		switch (event.getAction()) {
 		case MotionEvent.ACTION_DOWN:
-//			index++;
-//			if (index == 1) {
-//				this.frame1.setVisibility(View.INVISIBLE);
-//				this.t1.setVisibility(View.INVISIBLE);
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.VISIBLE);
-//			} else if (index == 2) {
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.INVISIBLE);
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.VISIBLE);
-//			} else if (index == 3) {
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.INVISIBLE);
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.VISIBLE);
-//			} else if (index == 4) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t5.setVisibility(View.VISIBLE);
-//			}  else if (index == 5) {
-//				finish();
-//			}
 			displayTutorials();
 			break;
 		}
@@ -112,75 +87,6 @@ public class MainActivity extends Activity {
 		}
 		if (keyCode == KeyEvent.KEYCODE_ENTER) {
 			Log.d(TAG, "onKeyUp(), #0");
-//			index++;
-//			if (index == 1) {
-//				this.frame1.setVisibility(View.INVISIBLE);
-//				this.t1.setVisibility(View.INVISIBLE);
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.VISIBLE);
-//			} else if (index == 2) {
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.INVISIBLE);
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.VISIBLE);
-//			} else if (index == 3) {
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.INVISIBLE);
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.VISIBLE);
-//			} else if (index == 4) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t5.setVisibility(View.VISIBLE);
-//			}  else if (index == 5) {
-//				finish();
-//			}
-
-//			if (index == 1) {
-//				this.frame1.setVisibility(View.INVISIBLE);
-//				this.t1.setVisibility(View.INVISIBLE);
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.VISIBLE);
-//			} else if (index == 2) {
-//				this.frame2.setVisibility(View.INVISIBLE);
-//				this.t2.setVisibility(View.INVISIBLE);
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.VISIBLE);
-//			} else if (index == 3) {
-//				this.frame3.setVisibility(View.INVISIBLE);
-//				this.t3.setVisibility(View.INVISIBLE);
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.VISIBLE);
-//			} else if (index == 4) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t4.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t5.setVisibility(View.VISIBLE);
-//			} else if (index == 5) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t5.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t6.setVisibility(View.VISIBLE);
-//			} else if (index == 6) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t6.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t7.setVisibility(View.VISIBLE);
-//			} else if (index == 7) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t7.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t8.setVisibility(View.VISIBLE);
-//			} else if (index == 8) {
-//				this.frame4.setVisibility(View.INVISIBLE);
-//				this.t8.setVisibility(View.INVISIBLE);
-//				this.frame5.setVisibility(View.INVISIBLE);
-//				this.t9.setVisibility(View.VISIBLE);
-//			} else if (index == 9) {
-//				finish();
-//			}
-
 			displayTutorials();
 		}
 		return super.onKeyUp(keyCode, event);
@@ -221,19 +127,19 @@ public class MainActivity extends Activity {
 			this.t6.setVisibility(View.VISIBLE);
 		} else if (index == 6) {
 			Log.d(TAG, "onKeyUp(), #6");
-			this.frame4.setVisibility(View.INVISIBLE);
-			this.t6.setVisibility(View.INVISIBLE);
-			this.frame5.setVisibility(View.INVISIBLE);
-			this.t7.setVisibility(View.VISIBLE);
+			finish();
+//			this.frame4.setVisibility(View.INVISIBLE);
+//			this.t6.setVisibility(View.INVISIBLE);
+//			this.frame5.setVisibility(View.INVISIBLE);
+//			this.t7.setVisibility(View.VISIBLE);
 		} else if (index == 7) {
 			Log.d(TAG, "onKeyUp(), #7");
-			this.frame4.setVisibility(View.INVISIBLE);
-			this.t7.setVisibility(View.INVISIBLE);
-			this.frame5.setVisibility(View.INVISIBLE);
-			this.t8.setVisibility(View.VISIBLE);
+//			this.frame4.setVisibility(View.INVISIBLE);
+//			this.t7.setVisibility(View.INVISIBLE);
+//			this.frame5.setVisibility(View.INVISIBLE);
+//			this.t8.setVisibility(View.VISIBLE);
 		} else if (index == 8) {
 			Log.d(TAG, "onKeyUp(), #8");
-			finish();
 //			this.frame4.setVisibility(View.INVISIBLE);
 //			this.t8.setVisibility(View.INVISIBLE);
 //			this.frame5.setVisibility(View.INVISIBLE);

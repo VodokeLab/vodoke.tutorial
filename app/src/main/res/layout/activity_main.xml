@@ -10,14 +10,14 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt1" />
+        android:src="@drawable/t1" />
 
     <ImageView
         android:id="@+id/t2"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt2"
+        android:src="@drawable/t2"
          android:visibility="invisible" />
 
     <ImageView
@@ -33,7 +33,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt3"
+        android:src="@drawable/t3"
 		android:visibility="invisible" />
 
     <ImageView
@@ -41,7 +41,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt4"
+        android:src="@drawable/t4"
         android:visibility="invisible" />
 
     <ImageView
@@ -57,7 +57,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt5"
+        android:src="@drawable/t5"
 		android:visibility="invisible" />
 
     <ImageView
@@ -65,7 +65,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt6"
+        android:src="@drawable/t6"
         android:visibility="invisible" />
 
     <ImageView
@@ -84,12 +84,12 @@
         android:layout_centerHorizontal="true"  
 		android:visibility="invisible" />-->
 
-     <ImageView
+<!--     <ImageView
         android:id="@+id/t7"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt7"
+        android:src="@drawable/t7"
 		android:visibility="invisible" />
 
      <ImageView
@@ -97,8 +97,8 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/tttt8"
-        android:visibility="invisible" />
+        android:src="@drawable/t8"
+        android:visibility="invisible" />-->
 
     <ImageView
         android:id="@+id/frame4"
