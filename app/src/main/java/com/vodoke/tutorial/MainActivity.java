@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 		t5 = (ImageView)findViewById(R.id.t5);
 		frame5 = (ImageView) findViewById(R.id.frame5);
 		t6 = (ImageView) findViewById(R.id.t6);
-//		t7 = (ImageView) findViewById(R.id.t7);
+		t7 = (ImageView) findViewById(R.id.t7);
 //		t8 = (ImageView) findViewById(R.id.t8);
 //		t9 = (ImageView) findViewById(R.id.t9);
 	}
@@ -127,13 +127,13 @@ public class MainActivity extends Activity {
 			this.t6.setVisibility(View.VISIBLE);
 		} else if (index == 6) {
 			Log.d(TAG, "onKeyUp(), #6");
-			finish();
-//			this.frame4.setVisibility(View.INVISIBLE);
-//			this.t6.setVisibility(View.INVISIBLE);
-//			this.frame5.setVisibility(View.INVISIBLE);
-//			this.t7.setVisibility(View.VISIBLE);
+			this.frame4.setVisibility(View.INVISIBLE);
+			this.t6.setVisibility(View.INVISIBLE);
+			this.frame5.setVisibility(View.INVISIBLE);
+			this.t7.setVisibility(View.VISIBLE);
 		} else if (index == 7) {
 			Log.d(TAG, "onKeyUp(), #7");
+			finish();
 //			this.frame4.setVisibility(View.INVISIBLE);
 //			this.t7.setVisibility(View.INVISIBLE);
 //			this.frame5.setVisibility(View.INVISIBLE);

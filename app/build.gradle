@@ -8,8 +8,8 @@ android {
         applicationId "com.vodoke.tutorial"
         minSdkVersion 15
         targetSdkVersion 17
-        versionCode 7
-        versionName "v7"
+        versionCode 8
+        versionName "1.1000.8-r.20170621"
     }
 
     buildTypes {
