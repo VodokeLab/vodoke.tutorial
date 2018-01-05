@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
 
     defaultConfig {
         applicationId "com.vodoke.tutorial"
         minSdkVersion 15
-        targetSdkVersion 17
-        versionCode 8
-        versionName "1.1000.8-r.20170621"
+        targetSdkVersion 27
+        versionCode 10
+        versionName "1.1000.10-r.20180105"
     }
 
     buildTypes {
@@ -21,5 +21,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v4:27.0.2'
 }
